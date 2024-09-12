@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- left الازرق -->
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-4 bg-blue text-white p-4">
+                <div class="text-center img-container">
+                    <img onmouseover="pic()" id = "img" src="https://www.famousbirthdays.com/faces/carey-todd-image.jpg"  class="img-fluid rounded-circle mb-3" style="width: 150px;">
+                </div> <br>
+                <h5>Contact</h5>
+                <hr class="bg-white">
+                <ul class="list-unstyled text-white">
+                    <li>
+                        <i class="fas fa-phone-alt"></i> <span id="phone" onmouseover="phone()">+123-456-7890</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope" ></i> <span id="email" onmouseover="email()">hello@reallygreatsite.com</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt" ></i> <span id="address" onmouseover="address()">123 Anywhere St., Any City</span>
+                    </li>
+                    <li >
+                        <i class="fas fa-globe"></i> <a href="https://www.linkedin.com/in/sarah-aljumaiah-a6989b234/"><span id="website" onmouseover="website()"> www.reallygreatsite.com</span></a>
+                    </li>
+                </ul>
+                <br>
+                <h5>Education</h5>
+                <hr class="bg-white">
+                <p id="master" onmouseover="master()"><span id="masteryear">2029 - 2030</span><br id="masteruni">Wardiere University<br id="masterdegree">• Master of Business Management</span> </p>
+                <p id="bachelor" onmouseover="bachelor()"><span id="bacheloryear">2025 - 2029</span><br><span id="bacheloruni">Wardiere University</span><br><span id="bachelordegree">• Bachelor of Business</span><br><span id="bGPA">• GPA: 3.8 / 4.0</span>
+                  </p>                               
+        <br>    <h5>Skills</h5>
+                <hr class="bg-white">
+                <ul >
+                    <li id="skill1" onmouseover="skill1()">Project Management</li>
+                    <li id="skill2" onmouseover="skill2()">Public Relations</li>
+                    <li id="skill3" onmouseover="skill3()">Teamwork</li>
+                    <li id="skill4" onmouseover="skill4()">Time Management</li>
+                    <li id="skill5" onmouseover="skill5()">Leadership</li>
+                    <li id="skill6" onmouseover="skill6()">Effective Communication</li>
+                    <li id="skill7" onmouseover="skill7()">Critical Thinking</li>
+                </ul>                 
+                <br>
+                <h5>Languages</h5>
+                <hr class="bg-white">
+                <ul id="languages" onmouseover="language()">
+                    <li id="english">English (Fluent)</li>
+                    <li id="french">French (Fluent)</li>
+                    <li id="german">German (Basics)</li>
+                    <li id="spanish">Spanish (Intermediate)</li>
+                </ul>
+                
+            </div>
+
+            <!-- rigth -->
+            <div class="col-md-8 p-4">
+                <h3 onmouseover="myname()" class="font-weight-bold">
+                    <span id="name">RICHARD</span> 
+                    <span id="lastname" style="color: #2a6596;">SANCHEZ</span>
+                </h3>
+                <p id="position" onmouseover="myname()">Marketing Manager</p>
+                <hr style="background-color: #163853; width: 60px; height: 3px; float: left;" class="justify-content-start">
+                
+          <br> <h3 id="protit" onmouseover="profile()" class="font-weight-bold mt-5" style="color: #2a6596;">Profile</h3>
+          <hr style="background-color: #2a6596;">
+          <p id="prodes" onmouseover="profile()">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          
+                <h3 class="font-weight-bold mt-5"  style="color: #2a6596;">Work Experience</h3><hr style="background-color: #2a6596;">
+                <div onmouseover="exp()">
+                    <h5 id="exp1">Borcelle Studio (2030 - Present)</h5>
+                    <p id="role1">Marketing Manager & Specialist</p>
+                    <ul>
+                        <li id="task1-1">Develop and execute comprehensive marketing strategies...</li>
+                        <li id="task1-2">Lead, mentor, and manage a high-performing marketing team...</li>
+                        <li id="task1-3">Monitor brand consistency across marketing channels and materials...</li>
+                    </ul>
+                </div>
+                <div id="exp2" onmouseover="exp2()">
+                    <h5 id="where1">Fauget Studio (2025 - 2029)</h5>
+                    <p id="role2">Marketing Manager & Specialist</p>
+                    <ul>
+                        <li id="task2-1">Create and manage the marketing budget...</li>
+                        <li id="task2-2">Oversee market research to identify emerging trends...</li>
+                        <li id="task2-3">Monitor brand consistency across marketing channels and materials...</li>
+                    </ul>
+                </div>
+                <div id="exp3" onmouseover="exp3()">
+                    <h5 id="where2">Studio Shodwe (2024 - 2025)</h5>
+                    <p id="role3">Marketing Manager & Specialist</p>
+                    <ul>
+                        <li id="task3-1">Develop and maintain strong relationships with partners...</li>
+                        <li id="task3-2">Monitor and maintain brand consistency across all marketing channels...</li>
+                    </ul>
+                </div>
+                
+                <h3 id="reftit" class="font-weight-bold mt-5" style="color: #2a6596;">References</h3>
+                <hr style="background-color: #2a6596;">
+                <div style="display: flex; justify-content: space-between; margin-top: 20px;" onmouseover="ref()">
+                    <div style="padding-right: 20px;">
+                        <p id="ref1Name"><strong>Estelle Darcy</strong><br>Wardiere Inc. / CTO</p>
+                        <p id="ref1Contact"><strong>Phone:</strong> 123-456-7890<br><strong>Email:</strong> hello@reallygreatsite.com</p>
+                    </div>
+                    <div style="padding-left: 20px;">
+                        <p id="ref2Name"><strong>Harper Richard</strong><br>Wardiere Inc. / CEO</p>
+                        <p id="ref2Contact"><strong>Phone:</strong> 123-456-7890<br><strong>Email:</strong> hello@reallygreatsite.com</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+</body>
+</html>
