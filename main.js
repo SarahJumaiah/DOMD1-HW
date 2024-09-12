@@ -92,8 +92,8 @@ function exp2() {
     document.getElementById("where1").textContent = "Education Department in Al-Kharj Governorate (2024 - 2024)";
     document.getElementById("role2").textContent = "Software Development and IT Support";
     document.getElementById("task2-1").textContent = "The training covered everything from troubleshooting to UI/UX design, app development, and database building, providing a comprehensive experience. ";
-    document.getElementById("task2-2").textContent = "Collaborate with cross-functional teams...";
-    document.getElementById("task2-3").textContent = "Maintain code quality and technical documentation...";
+    document.getElementById("task2-2").style.display = "none"
+    document.getElementById("task2-3").style.display = "none"
 }
 
 function exp3() {
